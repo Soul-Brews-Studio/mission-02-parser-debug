@@ -32,8 +32,9 @@ TypeError: $.description.split is not a function
 ## Setup
 
 ```bash
-# Copy challenge files to ~/.claude/skills/
+# Copy challenge files
 cp -r challenge-skills/* ~/.claude/skills/
+cp -r challenge-commands/* ~/.claude/commands/
 
 # Restart Claude Code
 # Type /he and watch it crash
@@ -58,9 +59,15 @@ challenge-skills/
     ├── SKILL.md
     └── examples/
         └── usage.md
+
+challenge-commands/
+├── backup.md
+├── deploy.md
+├── rollback.md
+└── status.md
 ```
 
-**8 files total. 4 are broken. Find them.**
+**12 files total. 6 are broken. Find them.**
 
 ## Rules
 

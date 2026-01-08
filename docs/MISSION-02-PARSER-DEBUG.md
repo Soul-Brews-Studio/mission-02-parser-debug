@@ -17,7 +17,7 @@ You updated Claude Code and now it crashes when you type `/` followed by any cha
 TypeError: $.description.split is not a function
 ```
 
-Your `~/.claude/skills/` folder has 8 skill files. **4 of them are broken.**
+Your `~/.claude/skills/` and `~/.claude/commands/` folders have 12 files total. **6 of them are broken.**
 
 Find them. Fix them. Document your methodology.
 
@@ -30,8 +30,9 @@ Find them. Fix them. Document your methodology.
 gh repo clone Soul-Brews-Studio/mission-02-parser-debug
 cd mission-02-parser-debug
 
-# Copy challenge skills to your Claude skills folder
+# Copy challenge files to your Claude folders
 cp -r challenge-skills/* ~/.claude/skills/
+cp -r challenge-commands/* ~/.claude/commands/
 
 # Restart Claude Code (or open new terminal)
 # Try typing "/" - it should crash
@@ -80,6 +81,8 @@ Create a GitHub issue with:
 2. `path/to/file2.md` - description of bug
 3. `path/to/file3.md` - description of bug
 4. `path/to/file4.md` - description of bug
+5. `path/to/file5.md` - description of bug
+6. `path/to/file6.md` - description of bug
 
 ### Root Cause
 
@@ -104,11 +107,11 @@ Create a GitHub issue with:
 
 | Criteria | Points | Notes |
 |----------|--------|-------|
-| Found all 4 files | 40 | 10 points each |
-| Correct root cause | 20 | Must explain WHY |
+| Found all 6 files | 30 | 5 points each |
+| Correct root cause | 30 | Must explain WHY |
 | Documented steps | 20 | Timeline required |
 | Systematic approach | 10 | Not random guessing |
-| Time under 15 min | 10 | Bonus for speed |
+| Time under 20 min | 10 | Bonus for speed |
 | **Total** | **100** | |
 
 ---
