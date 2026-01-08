@@ -1,6 +1,6 @@
 ---
 name: skill-beta
-description: [TODO: Add description for beta skill here]
+description: "Beta skill for testing features and experiments"
 ---
 
 # Skill Beta
