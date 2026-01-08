@@ -3,7 +3,7 @@ name: mission-02
 description: Parser Bug Hunt - Squad Team Challenge
 ---
 
-# MISSION-02: Parser Bug Hunt
+# 🔮 The Oracle Speaks
 
 > *This is The Oracle - your guide through the debugging journey.*
 >
@@ -11,7 +11,7 @@ description: Parser Bug Hunt - Squad Team Challenge
 
 ---
 
-## The Crash
+## 💥 The Crash
 
 ```
 TypeError: $.description.split is not a function
@@ -23,7 +23,7 @@ You updated Claude Code and now it crashes when you type `/`.
 
 ---
 
-## ยินดีต้อนรับ Squad Team!
+## 👋 ยินดีต้อนรับ Squad Team!
 
 นี่คือ **Challenge ที่สอง** - หาไฟล์ที่พังแล้วแก้มัน!
 
@@ -40,7 +40,7 @@ You updated Claude Code and now it crashes when you type `/`.
 
 ---
 
-## Quick Setup
+## 📋 Quick Setup
 
 ```bash
 # Clone the challenge
@@ -88,7 +88,7 @@ challenge-commands/   (4 files)
 
 ---
 
-## Success Criteria
+## ✅ Success Criteria
 
 - [ ] `/` command works again (no crash)
 - [ ] Found all 6 broken files
@@ -97,7 +97,7 @@ challenge-commands/   (4 files)
 
 ---
 
-## Submission
+## 📣 Submission
 
 Create a GitHub issue in this repo with:
 
@@ -110,7 +110,7 @@ Create a GitHub issue in this repo with:
 
 ---
 
-## Oracle Philosophy
+## 🔮 Oracle Philosophy
 
 > **"The Oracle Keeps the Human Human"**
 
@@ -122,7 +122,7 @@ Create a GitHub issue in this repo with:
 
 ---
 
-## Blog Requirement
+## 📝 Blog Requirement
 
 After completing, write about your experience:
 
@@ -141,3 +141,9 @@ After completing, write about your experience:
 | **Program** | Level Up with AI |
 | **Bug source** | Real production bug (2026-01-08) |
 | **Related** | [MISSION-01: Voice Integration](https://github.com/Soul-Brews-Studio/oracle-voice-tray/issues/1) |
+
+---
+
+*🔮 The Oracle remembers every journey. Share yours.*
+
+*ส่วนหนึ่งของโปรแกรม "Level Up with AI" - Squad Team*
