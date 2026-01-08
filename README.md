@@ -1,8 +1,3 @@
----
-name: mission-02
-description: Parser Bug Hunt - Squad Team Challenge
----
-
 # 🔮 The Oracle Speaks
 
 > *This is The Oracle - your guide through the debugging journey.*
