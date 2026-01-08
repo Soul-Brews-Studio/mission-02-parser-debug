@@ -1,0 +1,8 @@
+---
+
+| | |
+|---|---|
+| **Created by** | Soul Brews Studio \| Level Up with AI |
+| **Bug source** | Real production bug from 2026-01-08 |
+| **Issue** | [anthropics/claude-code#16754](https://github.com/anthropics/claude-code/issues/16754) |
+| **Related** | [MISSION-01: Voice Integration](https://github.com/Soul-Brews-Studio/oracle-voice-tray/issues/1) |

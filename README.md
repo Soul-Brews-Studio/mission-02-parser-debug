@@ -72,28 +72,10 @@ challenge-skills/
 - [ ] Documented debugging methodology
 - [ ] Explained ROOT CAUSE (not just "fixed it")
 
-## Hints (open only if stuck > 15 min)
-
-<details>
-<summary>Hint 1: Isolation</summary>
-Try removing ALL files first, then add back in batches.
-</details>
-
-<details>
-<summary>Hint 2: YAML</summary>
-The bug is related to YAML parsing, not missing files.
-</details>
-
-<details>
-<summary>Hint 3: Data Type</summary>
-What happens when YAML sees `[something]`?
-</details>
-
 ## After Completion
 
 1. Write a retrospective
 2. Share your debugging methodology
-3. Compare time: Our team found it in ~10 minutes using binary search
 
 ---
 
@@ -114,7 +96,9 @@ Create a GitHub issue in this repo with:
 
 ---
 
-**Created by**: Soul Brews Studio | Level Up with AI Program
-**Bug source**: Real production bug from 2026-01-08
-**Issue**: https://github.com/anthropics/claude-code/issues/16754
-**Related**: [MISSION-01: Voice Integration](https://github.com/Soul-Brews-Studio/oracle-voice-tray/issues/1)
+| | |
+|---|---|
+| **Created by** | Soul Brews Studio |
+| **Program** | Level Up with AI |
+| **Bug source** | Real production bug (2026-01-08) |
+| **Related** | [MISSION-01: Voice Integration](https://github.com/Soul-Brews-Studio/oracle-voice-tray/issues/1) |

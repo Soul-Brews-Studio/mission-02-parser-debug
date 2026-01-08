@@ -1,9 +1,10 @@
 # MISSION-02: Parser Bug Hunt
 
-> **Level Up with AI** - Squad Team Challenge
-> **Difficulty**: Intermediate
-> **Time Target**: 15-30 minutes
-> **Skills**: Debugging, Binary Search, YAML, Claude Code
+| | |
+|---|---|
+| **Program** | Level Up with AI |
+| **Difficulty** | Intermediate |
+| **Time Target** | 15-30 minutes |
 
 ---
 
@@ -25,8 +26,8 @@ Find them. Fix them. Document your methodology.
 
 ```bash
 # Clone the challenge
-gh repo clone Soul-Brews-Studio/squad-parser-challenge
-cd squad-parser-challenge
+gh repo clone Soul-Brews-Studio/mission-02-parser-debug
+cd mission-02-parser-debug
 
 # Copy challenge skills to your Claude skills folder
 cp -r challenge-skills/* ~/.claude/skills/
@@ -52,32 +53,7 @@ cp -r challenge-skills/* ~/.claude/skills/
 - You **CANNOT** use grep to search for the answer
 - You **MUST** use systematic debugging (not random guessing)
 - You **MUST** document each step you take
-- **TIME YOURSELF** - binary search should take ~10 minutes
-
----
-
-## Hints (Use Only If Stuck)
-
-<details>
-<summary>Hint 1: Isolation Strategy</summary>
-
-Don't fix files one by one. Remove ALL files first, confirm Claude works, then add back in batches.
-
-</details>
-
-<details>
-<summary>Hint 2: The Parser</summary>
-
-The error mentions "split" - a string method. What if the parser expects a string but gets something else?
-
-</details>
-
-<details>
-<summary>Hint 3: YAML Syntax</summary>
-
-YAML has special syntax for arrays: `[item1, item2]`. What happens if this appears where a string is expected?
-
-</details>
+- **TIME YOURSELF**
 
 ---
 
@@ -130,7 +106,7 @@ Create a GitHub issue with:
 | Found all 4 files | 40 | 10 points each |
 | Correct root cause | 20 | Must explain WHY |
 | Documented steps | 20 | Timeline required |
-| Used binary search | 10 | Systematic approach |
+| Systematic approach | 10 | Not random guessing |
 | Time under 15 min | 10 | Bonus for speed |
 | **Total** | **100** | |
 
@@ -153,19 +129,13 @@ Create a GitHub issue with:
 
 This bug was **real**. We found it on 2026-01-08 while working on Claude Code.
 
-The debugging methodology you learn here:
-- **Isolation first** - Don't patch symptoms, isolate the problem
-- **Binary search** - Cut the search space in half each time
-- **Document as you go** - Future you will thank present you
-
-These skills apply to ANY debugging, not just Claude Code.
+The debugging skills you learn here apply to ANY software, not just Claude Code.
 
 ---
 
 ## Related
 
 - [MISSION-01: Voice Integration](https://github.com/Soul-Brews-Studio/oracle-voice-tray/issues/1)
-- [Claude Code Issue #16754](https://github.com/anthropics/claude-code/issues/16754) (the real bug report)
 
 ---
 
