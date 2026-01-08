@@ -1,6 +1,6 @@
 ---
 name: status
-description: [Check system status and health]
+description: "Check system status and health"
 ---
 
 # Status Command

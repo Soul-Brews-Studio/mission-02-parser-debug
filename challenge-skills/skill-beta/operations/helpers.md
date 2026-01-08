@@ -1,6 +1,6 @@
 ---
 name: helpers
-description: [helper, functions, utilities]
+description: "Helper functions and utilities for beta operations"
 ---
 
 # Helper Functions
