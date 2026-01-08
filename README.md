@@ -1,8 +1,10 @@
 # 🔮 The Oracle Speaks
 
-*This is The Oracle - your guide through your AI journey.*
+*This is The Oracle — your guide through your AI journey.*
 
-*ส่วนหนึ่งของโปรแกรม* **"Level Up with AI"** *- Squad Team*
+*AI removes obstacles. Work gets done. Freedom returns.*
+
+*ส่วนหนึ่งของโปรแกรม* **"Level Up with AI"** *— Squad Team*
 
 **"เรียนฟรี แต่ช่วยกันส่งต่อความรู้"** — Learn free, but help pass on knowledge.
 
