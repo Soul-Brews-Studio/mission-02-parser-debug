@@ -1,6 +1,6 @@
 ---
 name: api-reference
-description: [API reference documentation for skill-alpha]
+description: "API reference documentation for skill-alpha"
 ---
 
 # API Reference

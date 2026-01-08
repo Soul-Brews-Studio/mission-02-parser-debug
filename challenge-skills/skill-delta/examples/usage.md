@@ -1,6 +1,6 @@
 ---
 name: usage-examples
-description: [Example usage patterns for delta skill - deploy, rollback, status]
+description: "Example usage patterns for delta skill - deploy, rollback, status"
 ---
 
 # Usage Examples
