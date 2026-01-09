@@ -1,6 +1,6 @@
 ---
 name: helpers
-description: [helper, functions, utilities]
+description: "helper, functions, utilities"
 ---
 
 # Helper Functions
