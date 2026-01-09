@@ -1,6 +1,6 @@
 ---
 name: rollback
-description: [TODO: Rollback to previous version]
+description: "TODO: Rollback to previous version"
 ---
 
 # Rollback Command
